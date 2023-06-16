@@ -231,6 +231,6 @@ footer .button:hover {
   background:#03642f;
 }
 
-input:invalid {
+input:not(:placeholder-shown):invalid {
   border: 1px solid #FF1010;
 }
